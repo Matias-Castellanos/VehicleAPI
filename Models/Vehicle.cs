@@ -12,6 +12,6 @@ public class Vehicle
     [Required, StringLength(50)] 
     public string Model { get; init; } = null!;
     
-    [Range(1900,2100)]
+    [Range(1900, 2100)]
     public int Year { get; init; }
 }
